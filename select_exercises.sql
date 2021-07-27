@@ -21,4 +21,5 @@ WHERE sales < 20;
 #All the albums with a genre of Rock
 SELECT * FROM albums
 WHERE genre = 'Rock';
+# get status
 
