@@ -22,4 +22,5 @@ WHERE sales < 20;
 SELECT * FROM albums
 WHERE genre = 'Rock';
 # get status
+#addtional notes
 
