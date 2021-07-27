@@ -1,7 +1,7 @@
 USE codeup_test_db;
 #
 SELECT * FROM albums;
-# The nameof
+# The name of
 SELECT * FROM albums
 WHERE artist = 'Masego';
 
