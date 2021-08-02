@@ -12,11 +12,13 @@ from dept_manager as dm
 where to_date = '9999-01-01'
   and e.gender = 'F'
 order by dept_name;
+# 4
 SELECT title, count(*) Total
 from titles as t
          join employees e on e.emp_no = t.emp_no
          join dept_emp de on e.emp_no = de.emp_no
 group by title;
+# 5
 SELECT d.dept_name, CONCAT(e.first_name, ' ', e.last_name) AS full_name, salary
 from dept_manager as dm
          join employees e on e.emp_no = dm.emp_no
