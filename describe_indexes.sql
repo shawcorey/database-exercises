@@ -1,0 +1,4 @@
+USE employees;
+
+DESCRIBE employees
+
