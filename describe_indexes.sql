@@ -1,4 +1,4 @@
 USE employees;
 
-DESCRIBE employees
+DESCRIBE employees;
 
